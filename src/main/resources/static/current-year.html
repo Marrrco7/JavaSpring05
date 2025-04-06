@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Current Year</title>
@@ -7,8 +7,11 @@
 </head>
 <body>
 <div class="container">
-    <h1>Current Year</h1>
-    <p th:text="${currentYear}">Year will be displayed here</p>
+    <h1>Get Current Year</h1>
+    <form action="/current-year" method="get">
+        <button type="submit">Show Year</button>
+    </form>
 </div>
 </body>
 </html>
+
