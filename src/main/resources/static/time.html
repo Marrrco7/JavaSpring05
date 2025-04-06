@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Current Time</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Current Time</h1>
+    <p th:text="${currentTime}">Time will be displayed here</p>
+    <p class="warning" th:if="${warningMessage}" th:text="${warningMessage}"></p>
+</div>
+</body>
+</html>
