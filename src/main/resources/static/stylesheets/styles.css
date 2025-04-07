@@ -37,16 +37,16 @@ input {
 }
 
 button {
-    margin-top: 30px;
+    margin-top: 35px;
     padding: 10px 25px;
     font-size: 1.2em;
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 7px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
 }
