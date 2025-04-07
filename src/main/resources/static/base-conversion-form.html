@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Base Converter</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+</head>
+<body style="background: url('/images/picture.jpg') no-repeat center center fixed; background-size: cover;">
+<div class="container">
+    <h1>Base Converter</h1>
+    <form action="/convert" method="post">
+        <label>Value:</label>
+        <input type="text" name="value" required><br><br>
+
+        <label>From Base (2–100):</label>
+        <input type="number" name="fromBase" min="2" max="100" required><br><br>
+
+        <label>To Base (2–100):</label>
+        <input type="number" name="toBase" min="2" max="100" required><br><br>
+
+        <button type="submit">Convert</button>
+    </form>
+</div>
+</body>
+</html>
